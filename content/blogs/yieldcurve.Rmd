@@ -42,7 +42,7 @@ library(vroom)
 library(DescTools)
 ```
 
-# Yield Curve Inversion
+
 
 Every so often, we hear warnings from commentators on the "inverted yield curve" and its predictive power with respect to recessions. 
 

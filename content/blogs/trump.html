@@ -1,5 +1,5 @@
 ---
-title: "Trump"
+title: "Trump's Approval Margins"
 date: '2017-10-31T21:28:43-05:00'
 description: ''
 draft: no
@@ -23,8 +23,6 @@ library(janitor)
 library(httr)
 library(readxl)
 library(vroom)</code></pre>
-<div id="trumps-approval-margins" class="section level1">
-<h1>Trump’s Approval Margins</h1>
 <p>As we saw in class, fivethirtyeight.com has detailed data on <a href="https://projects.fivethirtyeight.com/trump-approval-ratings">all polls that track the president’s approval</a></p>
 <pre class="r"><code># Import approval polls data
 approval_polllist &lt;- read_csv(here::here(&#39;data&#39;, &#39;approval_polllist.csv&#39;))
@@ -111,5 +109,4 @@ paste0(&quot;95% CI for week 15 is between &quot;, round(CI_app$CI_low[1],2),
        &quot; and &quot;, round(CI_app$CI_high[2],2))</code></pre>
 <pre><code>## [1] &quot;95% CI for week 34 is between -12.65 and -7.68&quot;</code></pre>
 <p>We can see that the confidence interval for week 15 is between -8.16 and -6.34 while for week 34 is between -12.65 and -7.68. This suggests that there was more certainty about voters’ preference in week 34 compared to week 15. The reason may be Donald Trump’s response to coronavirus which many voters may not have been satisfied with. This could have resulted in many voters changing their perception of Donald Trump which meant decline and greater uncertainty about Trump’s approval ratings in late summer (week 34) than earlier in the year (week 15). (Statistically speaking, the CI became wider. What is more interesting, these CIs do not overlap, meaning that the net approval in week 34 is highly likely (nearly definitely) is lower than in week 15)</p>
-</div>
 </div>

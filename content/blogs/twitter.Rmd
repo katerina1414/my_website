@@ -1,5 +1,5 @@
 ---
-title: "Twitter"
+title: "Twitter usage by education level"
 date: '2017-10-31T21:28:43-05:00'
 description: ''
 draft: no
@@ -42,7 +42,7 @@ library(vroom)
 library(DescTools)
 ```
 
-## Twitter usage by education level
+
 
 Can we estimate the *population* proportion of Twitter users by education level in 2016?
 

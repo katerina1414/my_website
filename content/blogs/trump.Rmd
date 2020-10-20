@@ -1,5 +1,5 @@
 ---
-title: "Trump"
+title: "Trump's Approval Margins"
 date: '2017-10-31T21:28:43-05:00'
 description: ''
 draft: no
@@ -43,7 +43,6 @@ library(vroom)
 
 
 
-# Trump's Approval Margins
 
 As we saw in class, fivethirtyeight.com has detailed data on [all polls that track the president's approval ](https://projects.fivethirtyeight.com/trump-approval-ratings)
 

@@ -1,5 +1,5 @@
 ---
-title: "Twitter"
+title: "Twitter usage by education level"
 date: '2017-10-31T21:28:43-05:00'
 description: ''
 draft: no
@@ -24,8 +24,6 @@ library(httr)
 library(readxl)
 library(vroom)
 library(DescTools)</code></pre>
-<div id="twitter-usage-by-education-level" class="section level2">
-<h2>Twitter usage by education level</h2>
 <p>Can we estimate the <em>population</em> proportion of Twitter users by education level in 2016?</p>
 <p>Yes, statistically it is viable to extrapolate a population (split) of users from a sufficiently large sample set. There are requirements that have to be met for this to work, such as non-overlapping confidence intervals, but generally it is possible to estimate the population. In the same way that election polls do not ask the whole country but just a very small group of people, these techniques can be applied to other measures.
 Below you can find a code for mean point estimation on the given sample:</p>
@@ -99,4 +97,3 @@ paste0(&quot;95% CI for usage of Twitter among Bachelors and Graduates is betwee
 <li>Do these two Confidence Intervals overlap?</li>
 </ul>
 <p>No, as estimated values are significantly different (if the proportion of users was around 0.5 there would be a higher chance of overlap) and the sample size is large (making the CIs quite narrow), there is no overlap.</p>
-</div>
