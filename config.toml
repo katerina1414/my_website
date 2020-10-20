@@ -98,34 +98,34 @@ disqusShortname = ""
       url = "blogs/CV_Kateryna_Tarasova.pdf"
 
     [[params.tiles.showcase]]
-      title = "COVID"
-      subtitle = ""
-      image = "pic02.jpg"
+      title = "COVID 2019"
+      subtitle = "Exploring COVID statistics"
+      image = "covidimage.png"
       url = "blogs/covid"
 
     [[params.tiles.showcase]]
-      title = "Magna"
-      subtitle = "Lorem Etiam Nullam"
-      image = "pic03.jpg"
-      url = "blogs/magna"
+      title = "Does America Approve of Trump"
+      subtitle = "Trump vs Hillary"
+      image = "trump.jpg"
+      url = "blogs/trump"
 
     [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
-      image = "pic04.jpg"
-      url = "blogs/ipsum"
+      title = "Twitter usage by education level"
+      subtitle = "Can we estimate the *population* proportion of Twitter users by education level in 2016?"
+      image = "twitter.jpg"
+      url = "blogs/twitter"
 
     [[params.tiles.showcase]]
-      title = "Consequat"
-      subtitle = "Ipsum Dolor Sit Amet"
-      image = "pic05.jpg"
-      url = "blogs/ipsum"
+      title = "Yield Curve Inversion"
+      subtitle = "Plot the yield curves since 1999 to see when the yield curves flatten"
+      image = "fin.jpeg"
+      url = "blogs/yieldcurve"
 
     [[params.tiles.showcase]]
-      title = "Etiam"
-      subtitle = "Feugiat Amet Tempus"
-      image = "pic06.jpg"
-      url = "blogs/ipsum"
+      title = "Hong Kong Airbnb Analysis"
+      subtitle = "How much will 4 nights in Hong Kong cost?"
+      image = "hk.jpg"
+      url = "blogs/hk"
     # You can make more showcases by copy and pasting the code above
 
   [params.blog]

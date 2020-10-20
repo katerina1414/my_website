@@ -132,8 +132,3 @@ ggplot(covid_icu, aes(x = prop, y = age_group)) +
 ```
 
 
-
-```{r covid_challenge, echo=FALSE, out.width="100%"}
-knitr::include_graphics(here::here("images", "covid_death_rate_comorbidities.png"), error = FALSE)
-knitr::include_graphics(here::here("images", "covid_death_rate_icu.png"), error = FALSE)
-```
