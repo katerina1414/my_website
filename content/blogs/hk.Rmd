@@ -5,7 +5,7 @@ description: ''
 draft: no
 image: hong.kong.jpg
 keywords: ''
-slug: hongkong
+slug: hk
 categories:
 - ''
 - ''
@@ -46,7 +46,7 @@ library(scales)
 
 
 
-```{r error = FALSE}
+```{r}
 
 hk_listings <- vroom("http://data.insideairbnb.com/china/hk/hong-kong/2020-06-15/data/listings.csv.gz")
 ```
